@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.org.panzer.nicepostals"
+      android:versionCode="1"
+      android:versionName="1.0">
+          <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-sdk android:targetSdkVersion="13"></uses-sdk>
+    <application android:label="@string/app_name" android:icon="@drawable/icon"
+                  android:theme="@style/Theme.Sherlock.Light.DarkActionBar"> 
+        <activity android:name="nicepostals" android:screenOrientation="landscape" 
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PicturePicker" android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+                  android:label="@string/app_name" android:screenOrientation="landscape" >
+
+        </activity>
+        <activity android:name=".SettingsActivity" android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+                  android:label="@string/app_name" android:screenOrientation="landscape" >
+
+        </activity>
+
+    </application>
+    
+        
+     
+</manifest> 

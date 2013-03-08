@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">nicepostals</string>
+    <string name="main_menuitem_change_bg">Fondo</string>
+    <string name="main_menuitem_share">Compartir</string>
+    <string name="main_menuitem_settings">Ajustes</string>
+    <string name="main_webview_hint_note">Tu cari\u00f1osa nota aquí</string>
+
+    <string name="main_intent_share_title">Nice Postal</string>
+    <string name="main_intent_share_text">Mira esta postal!</string>
+    
+    <string name="picturepicker_title">Fotos de Panoramio cerca de ti</string>
+    <string name="picturepicker_progressbar_fetching">Buscando fotos..</string>
+    <string name="picturepicker_gps_off">La geolocalización está desactivada!</string>
+    <string name="picturepicker_item_notitle">Sin Título</string>
+    
+    <string name="error_connectionlost">Error conectando al internet</string>
+    <string name="error_connectionlost_button">Reintentar</string>
+    
+    <string name="main_start_hint">Presiona el botón para iniciar</string>
+    <string name="pref_geotag">Activar Geoetiquetas</string>
+    <string name="pref_geotag_summ">Escribir Geoetiquetas EXIF en la postal</string>
+    
+    <string name="app_about_name">Nice Postals</string>
+    <string name="app_about_version">1.0</string>
+</resources>
